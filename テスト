@@ -1,0 +1,7 @@
+git clone https://github.com/tnyt106-hub/-.git
+cd -
+git checkout -b テスト
+echo "# 初期 README" > README.md
+git add README.md
+git commit -m "Initial commit: add README on テスト branch"
+git push -u origin テスト
